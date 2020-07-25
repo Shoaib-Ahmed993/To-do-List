@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="controls">
+            <h1>TO-DO APPLICATION</h1>
+            <input type="text" id="input" name="addtodo"><br>
+            <button id="add" type="button">Add Todo</button>
+            <button id="remove" type="button">Remove Todo</button>
+            <button id="clear" type="button" style="background-color: black;">Clear All</button>
+        </div>
+        <ul id="list">
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Go to Gym</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Learn Javascript</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check">
+                <label>Learn React</label>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
